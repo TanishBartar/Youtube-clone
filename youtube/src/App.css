@@ -1,0 +1,46 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 10px;
+  position : sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.logo{
+  object-fit: contain;
+  width: 100px;
+  height: 30px;
+}
+.topleft{
+  display: flex;
+  align-items: center;
+}
+.input{
+  display: flex;
+  align-items: center;
+  width: 45%;
+  height: 27px;
+  border: 1px solid lightGray;
+}
+.icons{
+  display:flex;
+  align-items: center;
+  justify-content: space-between
+}
+.input > input {
+  flex: 1;
+  border: none;
+  height: 24px;
+}
+.search{
+  width: 50px !important;
+  background-color: lightGray;
+  border-left: lightgray;
+  height: 27px !important;
+}
+.home{
+  background-color: 1px solid lightgray;
+}

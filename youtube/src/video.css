@@ -1,0 +1,37 @@
+.thumbnail{
+   
+    object-fit: contain;
+    height: 140px;
+    width: 250px;
+}
+.thumbnail :hover{
+    cursor: pointer;
+}
+h4{
+    margin: 0;
+    font-size: 15;
+}
+p{
+    margin: 0;
+    color: Gray;
+}
+.Video{
+    margin-bottom: 40px;
+    width: 270px;
+    margin-right: 5px;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Videoinfo{
+    display: flex;
+}
+.videotext{
+    margin-left: 15px;
+}
+.videoavatar{
+    object-fit: contain;
+    height: 30px !important;
+    width: 30px !important;
+}
